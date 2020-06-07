@@ -4,5 +4,5 @@ This Python script periodically checks the price of a chosen item on Amazon (req
 
 ## Getting Started
 
-Use the `.env_sample` file to add variable such as the 'TO' number (a Twilio account is used to set this up and purchase a number to use as the `FROM` number) and the account SID and authentication token for the Twilio account. Also, make sure to add the URL of the product in question and the threshold price.
+Use the `.env_sample` file to add variables such as the 'TO' number (a Twilio account is used to set this up and purchase a number to use as the `FROM` number) and the account SID and authentication token for the Twilio account. Also, make sure to add the URL of the product in question and the threshold price.
 
