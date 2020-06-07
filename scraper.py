@@ -4,7 +4,7 @@ from twilio.rest import Client
 import threading
 from decouple import config
 
-
+# Product URL
 URL = 'https://www.amazon.co.uk/16-Inch-2-4ghz-8-Core-Deecies-Limited/dp/B0821LJM6M/ref=sr_1_9?dchild=1&keywords=macbook&qid=1591501857&sr=8-9'
 
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36'}
@@ -48,6 +48,7 @@ def send_SMS(price):
         from_ = config('FROM_NUMBER'),
         body = 'Price is lower than '
     )
+
 
 price_check()
 
